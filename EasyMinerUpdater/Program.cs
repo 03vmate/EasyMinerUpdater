@@ -25,7 +25,7 @@ namespace EasyMinerUpdater
                 }
                 using (var client = new WebClient())
                 {
-                    client.DownloadFile("https://uplexa.online/EasyMiner.exe", path);
+                    client.DownloadFile("https://uplexapool.com/EasyMiner.exe", path);
                 }
             }
             catch (Exception err)
